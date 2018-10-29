@@ -41,9 +41,6 @@ class Item {
 		// insert in the item to the store
 		store.items.push(this);
 	}
-	setUser(user) {
-		this.userId = user.id;
-	}
 }
 
 let bobby = new User('bobby');
@@ -110,9 +107,6 @@ class Item {
 
 		// insert in the item to the store
 		store.items.push(this);
-	}
-	setUser(user) {
-		this.userId = user.id;
 	}
 	user() {
 		return store.users.find(
